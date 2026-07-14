@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Аналитическое досье — Мебельная компания «Лером»</title>
+<meta name="description" content="Сводное аналитическое досье по группе «Лером» (Пенза/Заречный): юрструктура, финансы 2019–2025, разворот в убыток 2025, репутация, каналы продаж, HR, риски.">
+<style>
+:root{
+  --accent:#4a4e8c; --accent2:#6d72b8; --dark:#292c52; --bg:#f6f6fb; --card:#ffffff;
+  --text:#1b1c2b; --muted:#5c6072; --line:#dedeed; --zebra:#eeeef8;
+  --green:#1e9e57; --amber:#d99a00; --red:#cf3b2e;
+  --shadow:0 1px 3px rgba(41,44,82,.08),0 8px 24px rgba(41,44,82,.06);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6;font-size:16px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+header.hero{background:linear-gradient(135deg,var(--dark),var(--accent));color:#fff;padding:54px 20px 60px}
+.hero-inner{max-width:1240px;margin:0 auto;padding:0 20px}
+.hero .kicker{letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;opacity:.85;margin:0 0 10px}
+.hero h1{margin:0;font-size:2.4rem;line-height:1.15;font-weight:800}
+.hero .sub{font-size:1.15rem;opacity:.92;margin:10px 0 4px}
+.hero .meta{opacity:.8;font-size:.9rem;margin-top:14px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:7px 14px;font-size:.85rem}
+.chip b{font-size:1rem}
+.aibanner{max-width:1240px;margin:22px auto 0;padding:0 20px}
+.aibanner-in{background:linear-gradient(135deg,var(--dark),var(--accent));color:#fff;border-radius:14px;padding:18px 22px;display:flex;gap:16px;align-items:center;box-shadow:var(--shadow);flex-wrap:wrap}
+.aibanner .ico{font-size:1.9rem;line-height:1}
+.aibanner p{margin:0;flex:1 1 340px;font-size:1rem;opacity:.97}
+.aibanner a.cta{background:#fff;color:var(--dark);font-weight:700;padding:11px 20px;border-radius:999px;white-space:nowrap;font-size:.95rem}
+.aibanner a.cta:hover{text-decoration:none;opacity:.88}
+.layout{display:flex;max-width:1240px;margin:34px auto 0;gap:30px;padding:0 20px;align-items:flex-start}
+nav.toc{position:sticky;top:18px;flex:0 0 250px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--shadow);max-height:calc(100vh - 36px);overflow:auto}
+nav.toc h4{margin:6px 8px 10px;font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+nav.toc a{display:block;padding:8px 10px;border-radius:8px;color:var(--text);font-size:.92rem;border-left:3px solid transparent}
+nav.toc a:hover{background:var(--zebra);text-decoration:none}
+nav.toc a.active{background:var(--zebra);border-left-color:var(--accent);color:var(--accent);font-weight:600}
+main{flex:1 1 auto;min-width:0}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin-bottom:22px;box-shadow:var(--shadow);scroll-margin-top:16px}
+section h2{margin:0 0 16px;font-size:1.5rem;color:var(--dark);display:flex;align-items:center;gap:10px;border-bottom:2px solid var(--accent);padding-bottom:10px}
+section h2 .n{background:var(--accent);color:#fff;border-radius:8px;font-size:.9rem;min-width:34px;height:30px;display:inline-flex;align-items:center;justify-content:center;font-weight:700;padding:0 6px}
+section h3{font-size:1.1rem;color:var(--accent);margin:22px 0 8px}
+p{margin:0 0 12px}.lead{font-size:1.05rem}
+ul{margin:0 0 12px;padding-left:22px}li{margin:5px 0}
+.muted{color:var(--muted)}
+.callout{border-left:4px solid var(--accent2);background:var(--zebra);padding:12px 16px;border-radius:8px;margin:14px 0}
+.callout.warn{border-color:var(--amber);background:#fff7e6}
+.callout.good{border-color:var(--green);background:#eafaf0}
+.callout.bad{border-color:var(--red);background:#fdecea}
+.tw{overflow-x:auto;margin:10px 0 6px}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:480px}
+th,td{padding:9px 12px;text-align:left;border:1px solid var(--line);vertical-align:top}
+th{background:var(--accent);color:#fff;font-weight:600;font-size:.86rem}
+tbody tr:nth-child(even){background:var(--zebra)}
+td.num,th.num{text-align:right;white-space:nowrap}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.g{background:var(--green)}.a{background:var(--amber)}.r{background:var(--red)}
+.badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:.78rem;font-weight:600;color:#fff}
+.b-g{background:var(--green)}.b-a{background:var(--amber)}.b-r{background:var(--red)}
+pre.tree{background:var(--zebra);border:1px solid var(--line);border-radius:10px;padding:16px;overflow-x:auto;font-size:.86rem;line-height:1.5}
+.author-grid{display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap}
+.author-photo{flex:0 0 220px;max-width:220px}
+.author-photo img{width:100%;border-radius:14px;display:block;box-shadow:var(--shadow)}
+.author-body{flex:1 1 340px;min-width:0}
+.svc-cols{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:16px 0}
+.svc-card{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--bg)}
+.svc-card.ai{border-color:var(--accent2);background:var(--zebra)}
+.svc-card h4{margin:0 0 8px;font-size:1rem;color:var(--dark)}
+.svc-card ul{margin:0;padding-left:20px}
+.contacts{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.contacts a{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:.9rem;background:#fff;color:var(--text)}
+.contacts a:hover{text-decoration:none;border-color:var(--accent);background:var(--zebra)}
+.barchart{margin:14px 0 18px}
+.bar-row{display:flex;align-items:center;gap:10px;margin:7px 0}
+.bar-yr{flex:0 0 44px;font-size:.85rem;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.bar-track{flex:1 1 auto;background:var(--zebra);border-radius:6px;height:24px;position:relative;overflow:hidden}
+.bar-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .4s}
+.bar-fill.f2{background:linear-gradient(90deg,#b5832a,#d9a441)}
+.bar-fill.fr{background:linear-gradient(90deg,#cf3b2e,#e06a5f)}
+.bar-val{flex:0 0 64px;font-size:.85rem;font-weight:600;font-variant-numeric:tabular-nums}
+.bar-legend{display:flex;gap:18px;font-size:.82rem;color:var(--muted);margin:4px 0 0 54px;flex-wrap:wrap}
+.bar-legend span::before{content:"";display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.bar-legend .l1::before{background:var(--accent)}.bar-legend .l2::before{background:#d9a441}.bar-legend .l3::before{background:var(--red)}
+footer{max-width:1240px;margin:10px auto 50px;padding:24px 30px;color:var(--muted);font-size:.85rem}
+footer .disc{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 22px}
+.menu-btn{display:none}
+@media(max-width:900px){.layout{flex-direction:column}nav.toc{position:static;flex-basis:auto;width:100%;max-height:none}nav.toc.collapsed .toc-links{display:none}.menu-btn{display:block;width:100%;background:var(--accent);color:#fff;border:none;padding:12px;border-radius:10px;font-size:1rem;font-weight:600;margin-bottom:14px;cursor:pointer}.hero h1{font-size:1.8rem}}
+@media(max-width:560px){.svc-cols{grid-template-columns:1fr}.author-photo{flex-basis:100%;max-width:260px;margin:0 auto}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="kicker">Аналитическое досье · OSINT-разбор</p>
+    <h1>Мебельная компания «Лером»</h1>
+    <p class="sub">lerom.ru · один из крупнейших производителей корпусной мебели РФ · г. Заречный, Пензенская обл.</p>
+    <p class="meta">Бенефициар: Лега Роман Валентинович (≈100%) · фабрика ООО «МК „Лером"» (ИНН 5834023068) · подготовлено 14 июля 2026</p>
+    <div class="chips">
+      <span class="chip">🏭 <b>835</b> чел. на фабрике</span>
+      <span class="chip">📅 на рынке <b>с 1997</b> года</span>
+      <span class="chip">💰 <b>3,9 млрд ₽</b> выручка 2025 (без НДС)</span>
+      <span class="chip">🟢 <b>3,48 млрд ₽</b> собственного капитала</span>
+      <span class="chip">🔴 <b>−114 млн ₽</b> убыток 2025 (разворот)</span>
+    </div>
+  </div>
+</header>
+
+<div class="aibanner">
+  <div class="aibanner-in">
+    <span class="ico">🤖</span>
+    <p><b>Это досье целиком собрал искусственный интеллект</b> — из открытых источников (Checko, Федресурс, отзовики, маркетплейсы, hh.ru, отраслевые СМИ, сайт компании), без ручного сбора, за часы вместо недель. Так же ИИ может разобрать вашего конкурента, поставщика или собственный бизнес. <b>Я учу этому и помогаю внедрять ИИ в бизнес.</b></p>
+    <a class="cta" href="#author">Об авторе и услугах →</a>
+  </div>
+</div>
+
+<div class="layout">
+  <nav class="toc collapsed" id="toc">
+    <button class="menu-btn" id="menuBtn">📑 Содержание ▾</button>
+    <div class="toc-links">
+      <h4>Разделы</h4>
+      <a href="#s1">1. Резюме</a>
+      <a href="#s2">2. Юридическая структура</a>
+      <a href="#s3">3. Бизнес и масштаб</a>
+      <a href="#s4">4. Дистрибуция и розница</a>
+      <a href="#s5">5. Финансы группы</a>
+      <a href="#s5a">5А. Динамика и разворот 2025</a>
+      <a href="#s6">6. Каналы продаж и соцсети</a>
+      <a href="#s7">7. Репутация: клиенты и HR</a>
+      <a href="#s8">8. Суды и проверки</a>
+      <a href="#s9">9. Сводные выводы</a>
+      <a href="#author">★ Об авторе и услуги</a>
+    </div>
+  </nav>
+  <main>
+
+  <section id="s1">
+    <h2><span class="n">1</span> Резюме</h2>
+    <p class="lead"><b>«Лером»</b> — крупная мебельная фабрика полного цикла из г. Заречный (Пензенская обл.), один из заметных российских производителей <b>корпусной мебели</b> (гостиные, спальни, прихожие, детские) эконом- и среднего сегмента. Основана в 1997 г. Романом Легой «с нуля» (12 человек, 150 м²), сегодня — производственно-складской комплекс <b>&gt;160 000 м²</b>, <b>835 сотрудников</b>, товарный знак с 2005 г., ISO 9001. Сбыт — <b>оптом через дилерскую сеть</b> (заявлено &gt;1200 салонов по РФ), собственной крупной розницы нет.</p>
+    <p><b>Структура предельно простая:</b> это не запутанный холдинг, а <b>моно-фабрика с единственным владельцем</b> — Легой Романом Валентиновичем (контроль ≈100%). Рядом — вспомогательное ООО «Лером» (стройка/недвижимость площадки + мягко-матрасный бренд «Берёзка» + внутригрупповое финансирование).</p>
+    <div class="callout bad"><b>🔴 Главное событие — разворот 2025 года.</b> После пика выручки 2023 (4,5 млрд) фабрика два года снижает оборот и <b>впервые за всю историю ушла в убыток</b> (операционный −96 млн, чистый −114 млн ₽). Валовая маржа обвалилась втрое — с 18–19% до <b>5,8%</b>. Причина — отраслевые «ножницы» 2025: спрос на мебель просел (дорогая ипотека, спад в недвижимости), а себестоимость выросла.</div>
+    <div class="callout good"><b>🟢 При этом баланс — крепость.</b> Собственный капитал <b>3,48 млрд ₽ (78% пассива)</b>, долговая нагрузка мизерная (Debt/Equity ≈ 0,13). Убыток 2025 = лишь 3% капитала. Банкротного риска нет; подушки прочности хватит на годы даже убыточной работы.</div>
+    <div class="callout warn"><b>⚠️ По всем финансовым цифрам:</b> выручка, себестоимость, прибыль — из бухгалтерского отчёта о прибылях и убытках, то есть <b>БЕЗ НДС</b>. Цены в салонах и на маркетплейсах — <b>с НДС</b>; для сравнения нужна поправка ~20%.</div>
+    <h3>Риск-светофор</h3>
+    <div class="tw"><table>
+      <thead><tr><th>Зона</th><th>Оценка</th><th>Комментарий</th></tr></thead>
+      <tbody>
+      <tr><td>Реальность и масштаб</td><td><span class="badge b-g">норма</span></td><td>Своя фабрика 835 чел., &gt;160 тыс. м², бренд с 1997, &gt;1200 салонов-дилеров</td></tr>
+      <tr><td>Прибыльность</td><td><span class="badge b-r">риск</span></td><td>2025 — первый в истории убыток (−114 млн); валовая маржа 18% → 5,8%</td></tr>
+      <tr><td>Капитал / устойчивость</td><td><span class="badge b-g">норма</span></td><td>3,48 млрд ₽, 78% пассива — очень толстая подушка</td></tr>
+      <tr><td>Долговая нагрузка</td><td><span class="badge b-a">внимание</span></td><td>Уровень низкий (D/E 0,13), но займы выросли 0 → 500 млн, проценты ×10</td></tr>
+      <tr><td>Ликвидность</td><td><span class="badge b-a">внимание</span></td><td>Деньги на счетах фабрики обнулились: 119 → 16 → 0,9 млн ₽</td></tr>
+      <tr><td>Репутация / сервис</td><td><span class="badge b-a">внимание</span></td><td>Otzovik 2,8/5; эконом-ДСП, запах, сервис у дилеров</td></tr>
+      <tr><td>Суды / банкротство</td><td><span class="badge b-g">норма</span></td><td>3 старых мелких арбитража; банкротств/исп. производств нет; аудит ежегодный</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="s2">
+    <h2><span class="n">2</span> Юридическая структура</h2>
+    <p>Разбор через Checko (ЕГРЮЛ). <b>[Ф]</b> — факт из реестра, <b>[П]</b> — реконструкция/предположение.</p>
+    <h3>Бенефициар</h3>
+    <div class="tw"><table>
+      <thead><tr><th>Лицо</th><th>ИНН</th><th>Доля / контроль</th><th>Роль</th></tr></thead>
+      <tbody>
+      <tr><td><b>Лега Роман Валентинович</b></td><td>583600269959</td><td>≈100% (55% напрямую + 45% через ООО «Лером»)</td><td>Единственный владелец и директор группы</td></tr>
+      <tr><td class="muted">Лега Татьяна Васильевна</td><td class="muted">583600103463</td><td class="muted">—</td><td class="muted">Совладелец ликвидированного ООО «М и Ф»; вероятно, родственница [П]</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Дерево структуры</h3>
+    <pre class="tree">Лега Роман Валентинович (ИНН 583600269959) — контроль ≈100%
+│
+├─ ООО «Лером» (ИНН 5837011938) — 100% Лега Р.В.
+│   • рег. 1997 · г. Заречный, Фабричный проезд, стр.1 · СЧР 42
+│   • ОКВЭД 41.2 «Строительство» (+ аренда недвиж., перевозки)
+│   • роль: недвижимость/стройка площадки + бренд «Берёзка» (mberezka.ru,
+│           мягкая мебель/матрасы) + внутригрупповой ФИНХОЛДИНГ (с 2023)
+│   └─ владеет 45% МК «Лером»
+│
+└─ ООО «Мебельная компания „Лером"» (ИНН 5834023068)  ★ ФАБРИКА
+    • рег. 2001 · г. Заречный, Фабричный проезд, стр.1 · СЧР 835
+    • ОКВЭД 31.09/31.01/31.02 «Производство мебели» (+ 46.47 опт мебелью)
+    • товарный знак с 2005 (до 2034) · ежегодный обязательный аудит
+    • владельцы: Лега Р.В. 55% + ООО «Лером» 45%</pre>
+    <div class="callout"><b>Модель сбыта (подтверждено):</b> фабрика продаёт <b>напрямую дилерам оптом</b> (ОКВЭД 46.47). Своей крупной розничной сети-работодателя нет; фирменные салоны и региональные сайты (lmmebel.ru, lerom.msk.ru, lerom.store, lermebel.ru и др.) — это <b>независимые дилеры/франчайзи</b> под единым брендом. Поэтому <b>внешняя выручка группы ≈ выручка фабрики</b>, складывать юрлица не нужно.</div>
+    <p class="muted"><b>Не относится к группе:</b> полнотекстовый поиск «Лером» дал 33 юрлица по РФ (розница, стройка, опт, транспорт в Москве, Татарстане, Владимире, Туле и др.) — все с другими ИНН и владельцами. К группе Леги Р.В. относятся только два пензенских ООО. Ликвидированы: ООО «М и Ф» (2014), ИП Леги Р.В. (2012) и Т.В. (2014).</p>
+  </section>
+
+  <section id="s3">
+    <h2><span class="n">3</span> Бизнес и масштаб</h2>
+    <p><b>Что это:</b> вертикальная фабрика корпусной мебели полного цикла. Ассортимент — <b>модульные гостиные, спальни, прихожие, детские</b> из ЛДСП/МДФ класса E1 (плита Egger, Австрия; фурнитура Hettich, Германия). Сегмент — <b>эконом / средний</b>; ориентир: спальня-комплект «Мелисса» ~62 000 ₽. Фишка с ранних лет — широкая модульность серий при доступной цене.</p>
+    <ul>
+      <li><b>История:</b> 1997 — Роман Лега основал производство (12 человек, 150 м²); 2001 — регистрация головной фабрики; 2003 — первые хитовые серии «Роберта» и «Карина»; за 20+ лет площади выросли примерно втрое, до &gt;160 000 м².</li>
+      <li><b>Производство:</b> автоматизированные цеха раскроя, кромкования, упаковки; оборудование из Австрии, Германии, Италии. 835 сотрудников на фабрике.</li>
+      <li><b>Коллекции:</b> Мелисса, Роберта, Карина, Грейс, Камелия, Стелла, Мелания и др.</li>
+      <li><b>Признание:</b> система менеджмента качества ISO 9001; лауреат премии «Российская кабриоль» (промышленный дизайн); участник международных мебельных выставок.</li>
+      <li><b>Бренд «Берёзка» (mberezka.ru):</b> сестринский <b>мягко-матрасный дивизион</b> на ООО «Лером» — диваны, кровати, матрасы; закрывает сегмент, который корпусная фабрика не производит. Масштаб скромный (операционная выручка ООО «Лером» 80–100 млн ₽/год). [Ф связь юрлица · П по объёму]</li>
+    </ul>
+    <div class="callout warn"><b>Позиция на рынке:</b> отраслевые обзоры и «Коммерсантъ» стабильно перечисляют «Лером» в ряду крупнейших мебельных предприятий РФ — рядом с «Марией», «Шатурой», «Дятьково», «Ангстремом», «Лазуритом». Точного места в рейтинге по единой методике в открытых источниках нет — позиция плавает по подборкам. Конкуренты в корпусе: Столплит, Ангстрем, Дятьково, «Любимый дом», Шатура; давление — федеральные сети (Hoff) и маркетплейсы.</div>
+  </section>
+
+  <section id="s4">
+    <h2><span class="n">4</span> Дистрибуция и розница</h2>
+    <p>Модель «Лерома» принципиально отличается от D2C-игроков (типа «Диван.ру»): это <b>классический B2B-опт</b>. Фабрика производит и отгружает продукцию <b>дилерам</b>, которые уже держат розничные салоны и региональные интернет-магазины под общим брендом «Лером».</p>
+    <div class="tw"><table>
+      <thead><tr><th>Элемент сбыта</th><th>Что известно</th></tr></thead>
+      <tbody>
+      <tr><td>Дилерская сеть</td><td>Заявлено <b>&gt;1200 мебельных салонов</b> по всей РФ (данные компании/отраслевых каталогов)</td></tr>
+      <tr><td>Фирменные сайты дилеров</td><td>Множество региональных: lmmebel.ru (+ поддомены Омск/Владимир и др.), lerom.msk.ru, lerom.store, lermebel.ru, lerom25.ru (Владивосток) — франчайзи-подобная розница</td></tr>
+      <tr><td>Собственная розница фабрики</td><td>Не выявлена: HR-разведка не нашла ни одной вакансии продавца/дизайнера салона/регионального менеджера от фабрики — продажи вынесены к дилерам</td></tr>
+      <tr><td>Экспорт</td><td>Заявлен (ближнее/дальнее зарубежье), конкретные страны и доли не раскрыты; вероятно СНГ [П]</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><b>Аналитический вывод:</b> «Лером» осознанно остаётся <b>производителем, а не ретейлером</b>. Плюс модели — фабрика не несёт затрат и рисков розницы, маркетинга, логистики «последней мили». Минус — <b>слабый контроль над клиентским опытом и ценой</b>: качество сервиса, доставки и постпродажи зависит от разрозненных дилеров (это отражается в отзывах, см. раздел 7), а маржа розницы остаётся у партнёров.</div>
+  </section>
+
+  <section id="s5">
+    <h2><span class="n">5</span> Финансы группы <span style="font-size:.7em;color:var(--muted);font-weight:600">· все суммы из ОПУ, БЕЗ НДС</span></h2>
+    <div class="callout warn"><b>Напоминание:</b> все цифры ниже — из бухгалтерской отчётности (ОПУ/баланс, <b>без НДС</b>). Данные ГИР БО ФНС через Checko. Фабрика проходит ежегодный обязательный аудит — достоверность отчётности повышенная.</div>
+    <h3>Фабрика ООО «МК „Лером"» — ключевые показатели (млн ₽, без НДС)</h3>
+    <div class="tw"><table>
+      <thead><tr><th>Показатель</th><th class="num">2021</th><th class="num">2022</th><th class="num">2023</th><th class="num">2024</th><th class="num">2025</th></tr></thead>
+      <tbody>
+      <tr><td>Выручка</td><td class="num">3 918</td><td class="num">4 159</td><td class="num"><b>4 504</b></td><td class="num">4 336</td><td class="num">3 923</td></tr>
+      <tr><td>Валовая маржа</td><td class="num">24,3%</td><td class="num">17,5%</td><td class="num">19,0%</td><td class="num">18,1%</td><td class="num"><b>5,8%</b></td></tr>
+      <tr><td>Прибыль от продаж</td><td class="num">779</td><td class="num">518</td><td class="num">493</td><td class="num">380</td><td class="num"><b>−96</b></td></tr>
+      <tr><td>Чистая прибыль</td><td class="num">701</td><td class="num">434</td><td class="num">401</td><td class="num">251</td><td class="num"><b>−114</b></td></tr>
+      <tr><td>Проценты к уплате</td><td class="num">2</td><td class="num">7</td><td class="num">6</td><td class="num">52</td><td class="num">61</td></tr>
+      <tr><td>Собственный капитал</td><td class="num">4 185</td><td class="num"><b>4 296</b></td><td class="num">3 717</td><td class="num">3 593</td><td class="num">3 478</td></tr>
+      <tr><td>Деньги на счетах</td><td class="num">184</td><td class="num">62</td><td class="num">119</td><td class="num">16</td><td class="num"><b>0,9</b></td></tr>
+      <tr><td>Долгосрочные займы</td><td class="num">0</td><td class="num">0</td><td class="num">220</td><td class="num">500</td><td class="num">445</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Структура баланса фабрики 2025 (пассив 4,48 млрд ₽)</h3>
+    <ul>
+      <li><b>Собственный капитал — 3,48 млрд ₽ (78%)</b>. Крайне консервативный, «крепостной» баланс.</li>
+      <li>Долгосрочные обязательства — 603 млн (из них займы 445 млн).</li>
+      <li>Краткосрочные обязательства — 393 млн (кредиторка 337 млн, займы 4,5 млн).</li>
+      <li>В активах — «тяжёлый» оборотный капитал: <b>запасы 1,57 млрд</b> (~40% выручки) + дебиторка 397 млн.</li>
+    </ul>
+    <h3>ООО «Лером» — вспомогательное юрлицо</h3>
+    <p>Операционная выручка небольшая (80–100 млн ₽/год, стройка/аренда + «Берёзка»). Но в <b>2023 г. на его баланс легли финансовые вложения ~950 млн ₽</b> (стр. 1170), профинансированные долгосрочным займом 800 млн — это внутригрупповая финансовая конструкция (см. врезку в разделе 5А).</p>
+    <div class="callout"><b>Консолидация:</b> внешняя выручка группы ≈ выручка фабрики (сбыт напрямую дилерам). ООО «Лером» — внутренний контур (стройка/аренда для площадки + финансирование), его обороты в основном внутригрупповые и наружу не идут.</div>
+  </section>
+
+  <section id="s5a">
+    <h2><span class="n">5А</span> Динамика и разворот 2025 <span style="font-size:.7em;color:var(--muted);font-weight:600">· млн ₽, без НДС</span></h2>
+    <p>История «Лерома» в цифрах — это <b>десятилетие роста, упор в потолок 2023 года и резкий разворот в 2025-м</b>.</p>
+
+    <h3>Выручка фабрики по годам (млн ₽, без НДС)</h3>
+    <div class="barchart">
+      <div class="bar-row"><span class="bar-yr">2019</span><div class="bar-track"><div class="bar-fill" style="width:59%"></div></div><span class="bar-val">2 667</span></div>
+      <div class="bar-row"><span class="bar-yr">2020</span><div class="bar-track"><div class="bar-fill" style="width:66%"></div></div><span class="bar-val">2 984</span></div>
+      <div class="bar-row"><span class="bar-yr">2021</span><div class="bar-track"><div class="bar-fill" style="width:87%"></div></div><span class="bar-val">3 918</span></div>
+      <div class="bar-row"><span class="bar-yr">2022</span><div class="bar-track"><div class="bar-fill" style="width:92%"></div></div><span class="bar-val">4 159</span></div>
+      <div class="bar-row"><span class="bar-yr">2023</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-val">4 504</span></div>
+      <div class="bar-row"><span class="bar-yr">2024</span><div class="bar-track"><div class="bar-fill" style="width:96%"></div></div><span class="bar-val">4 336</span></div>
+      <div class="bar-row"><span class="bar-yr">2025</span><div class="bar-track"><div class="bar-fill" style="width:87%"></div></div><span class="bar-val">3 923</span></div>
+      <div class="bar-legend"><span class="l1">Выручка фабрики — пик 2023, затем −13% за два года</span></div>
+    </div>
+
+    <h3>Чистая прибыль фабрики по годам (млн ₽, без НДС)</h3>
+    <div class="barchart">
+      <div class="bar-row"><span class="bar-yr">2021</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-val">+701</span></div>
+      <div class="bar-row"><span class="bar-yr">2022</span><div class="bar-track"><div class="bar-fill" style="width:62%"></div></div><span class="bar-val">+434</span></div>
+      <div class="bar-row"><span class="bar-yr">2023</span><div class="bar-track"><div class="bar-fill" style="width:57%"></div></div><span class="bar-val">+401</span></div>
+      <div class="bar-row"><span class="bar-yr">2024</span><div class="bar-track"><div class="bar-fill" style="width:36%"></div></div><span class="bar-val">+251</span></div>
+      <div class="bar-row"><span class="bar-yr">2025</span><div class="bar-track"><div class="bar-fill fr" style="width:16%"></div></div><span class="bar-val" style="color:var(--red)">−114</span></div>
+      <div class="bar-legend"><span class="l1">прибыль</span><span class="l3">убыток 2025</span></div>
+    </div>
+    <p class="muted" style="font-size:.86rem">Прибыль сжималась четыре года подряд (701 → 434 → 401 → 251) и в 2025 ушла в минус. Это не разовая просадка, а исчерпание маржинального запаса на фоне спада рынка.</p>
+
+    <h3>Что произошло в 2025-м</h3>
+    <p>Себестоимость выросла до <b>3,70 млрд</b> при падении выручки до <b>3,92 млрд</b> — валовая прибыль схлопнулась до 228 млн (маржа 5,8% против 18–24% в 2021–2024). Дальше коммерческие и управленческие расходы (204 + 120 млн) увели результат в операционный убыток −96 млн, а проценты по новым кредитам (61 млн) — в чистый убыток −114 млн. Классические <b>«ножницы» 2025 года для мебельной отрасли:</b> спрос убит дорогой ипотекой и спадом в недвижимости, а издержки (плита, ЛКМ, зарплаты 835 человек, энергия) выросли.</p>
+
+    <div class="callout warn"><b>💡 Ключевая находка — вывод накопленного капитала в холдинг.</b> Реконструкция движения капитала фабрики: в 2023 г. капитал упал на 579 млн при прибыли +401 → распределено/изъято ≈ <b>980 млн</b>; в 2024 — минус 124 при прибыли +251 → изъято ≈ <b>375 млн</b>. За два года из фабрики выведено ~<b>1,35 млрд ₽</b>. Это совпадает с тем, что именно в 2023-м на ООО «Лером» появились финвложения ~950 млн под заём 800 млн. То есть <b>накопленная прибыль переложена «наверх», в холдинг</b>, а операционная фабрика в 2025-м осталась почти без кэша (0,9 млн) и добрала 500 млн банковских кредитов. Похоже на <b>заблаговременное обособление капитала от операционного риска.</b> [П — точную природу финвложений подтвердить у владельца]</div>
+
+    <h3>Стресс-тест и вывод</h3>
+    <p>При капитале 3,48 млрд списание даже 20% «мягких» активов (запасы + дебиторка = 1,97 млрд → −394 млн) оставляет капитал 3,08 млрд. Устойчивость к балансовым шокам <b>очень высокая</b>. Реальная угроза — не баланс, а <b>затяжной операционный убыток</b>, если маржа не восстановится в 2026-м.</p>
+    <div class="callout good"><b>Тип бизнеса: «здоровая крепость в фазе циклического стресса».</b> Не убыточно-закредитованная модель и не хрупкая тонкая подушка — это фабрика с реальным производством, огромным накопленным капиталом и почти без долга, которую год 2025 впервые загнал в убыток. Владелец заранее вывел кэш в холдинг, снизив риск на операционном юрлице.</div>
+  </section>
+
+  <section id="s6">
+    <h2><span class="n">6</span> Каналы продаж и социальные сети</h2>
+    <p>Цифровой контур «Лерома» <b>фрагментирован</b> и вторичен по отношению к дилерской модели: у фабрики нет единого мощного D2C-канала — есть корпоративный сайт-витрина lerom.ru и десятки сайтов дилеров.</p>
+    <div class="tw"><table>
+      <thead><tr><th>Канал</th><th>Что известно</th><th>Роль</th></tr></thead>
+      <tbody>
+      <tr><td>Сайт lerom.ru</td><td>Корпоративная витрина/каталог + страница вакансий; продажи в основном через дилеров</td><td><span class="dot g"></span>витрина</td></tr>
+      <tr><td>Сайты дилеров</td><td>Десятки региональных (lmmebel.ru, lerom.msk.ru, lerom.store, lermebel.ru…)</td><td><span class="dot g"></span>розница партнёров</td></tr>
+      <tr><td>OZON</td><td>Бренд представлен, но <b>единого фирменного магазина фабрики нет</b> — категория «Лером» собрана из разных продавцов-дилеров</td><td><span class="dot a"></span>через дилеров</td></tr>
+      <tr><td>Wildberries / Я.Маркет</td><td>Официального магазина фабрики не выявлено; листинги ведут дилеры/реселлеры</td><td><span class="dot a"></span>фрагментировано</td></tr>
+      <tr><td>Соцсети</td><td>Единой сильной верифицированной группы бренда не найдено; SMM развит слабо</td><td><span class="dot a"></span>слабо</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout"><b>Вывод:</b> в отличие от онлайн-игроков, «Лером» <b>не строит собственный маркетплейс-канал</b> и не борется за D2C-трафик — это следствие оптовой модели. Оборотная сторона: бренд слабо присутствует в цифре «от первого лица», а маркетплейс-выручку и данные о клиенте забирают дилеры и реселлеры. Потенциальная точка роста, если рынок продолжит уходить в онлайн.</div>
+  </section>
+
+  <section id="s7">
+    <h2><span class="n">7</span> Репутация: клиенты и сотрудники</h2>
+    <h3>Клиентские отзывы — эконом-сегмент, боль в качестве ДСП и сервисе</h3>
+    <div class="tw"><table>
+      <thead><tr><th>Площадка</th><th class="num">Рейтинг</th><th class="num">Отзывов</th><th>Тон</th></tr></thead>
+      <tbody>
+      <tr><td>Otzovik (мебель «Лером»)</td><td class="num">2,8 / 5</td><td class="num">140</td><td>38% рекомендуют</td></tr>
+      <tr><td>2ГИС (Заречный, по бренду)</td><td class="num">~3,8</td><td class="num">~13</td><td>смешанный</td></tr>
+      </tbody>
+    </table></div>
+    <p><b>Хвалят:</b> доступную цену, современный дизайн, широкую модульность, бесплатную доставку/сборку у ряда дилеров. <b>Критикуют:</b> качество ЛДСП («тонкое ДСП, сколы, прогибается»), стойкий химический запах у новой мебели, срывы сроков доставки, неполные комплекты, слабую инструкцию и <b>сервис/отработку претензий у дилеров</b>. Признаков мошенничества нет — риски <b>качественно-сервисные</b> и типичны для эконом-сегмента корпусной мебели, продаваемой через разрозненную дилерскую сеть.</p>
+
+    <h3>HR — «заводское» позиционирование, наём только в Заречном</h3>
+    <ul>
+      <li><b>География найма — одна площадка</b> (Заречный/Пенза). Профиль вакансий — <b>рабочие производства + заводской ИТР</b>: операторы станков, сборщики, ОТК, грузчики, конструктор-технолог, кадры/расчёт ЗП. Есть «ученики на все вакансии» — плановый набор, признаков сворачивания нет.</li>
+      <li><b>Зарплаты (агрегаторы):</b> оператор станков 90–110 тыс. ₽, грузчик от 80 тыс., контролёр КПП от 40 тыс., верхняя планка сдельных — до ~168 тыс. ₽.</li>
+      <li><b>Ни одной вакансии</b> продавца, дизайнера салона, регионального менеджера, e-com/маркетплейс-менеджера от фабрики — подтверждает, что <b>продажи и digital вынесены к дилерам</b>, а не в штат завода.</li>
+      <li><b>Employer-бренд слабый:</b> сайт даёт только список должностей и телефон отдела кадров, без описания соцпакета и HR-лендинга.</li>
+    </ul>
+    <div class="callout warn"><b>Важная оговорка по отзывам сотрудников:</b> надёжного агрегированного рейтинга <b>именно фабрики</b> (hh/Dream Job) в открытом доступе нет. Резко негативные отзывы «о работе» в сети (нет договоров, штрафы, серые выплаты, зарплата в конверте) по содержанию относятся к <b>мелким торговым точкам-дилерам</b> под брендом «Лером» в разных городах, а не к производственной площадке в Заречном — механически переносить их на фабрику нельзя.</div>
+  </section>
+
+  <section id="s8">
+    <h2><span class="n">8</span> Суды и проверки</h2>
+    <ul>
+      <li><b>Арбитраж — практически чисто:</b> всего 3 дела на 26 млн ₽, все старые. Крупнейшее — фабрика как <b>истец</b> к поставщику ООО «ТК „Русский Ламинат"» (23,3 млн, 2020). Как ответчик — два мелких (ООО «Бисмарк» 3 млн в 2019; ИП 44 тыс. в 2022). Для оборота ~4 млрд — исключительно низкая судебная нагрузка.</li>
+      <li><b>Федресурс — чисто:</b> 15 записей, преимущественно <b>результаты ежегодного обязательного аудита</b> (2017–2026) + получение лицензий + отказ от банкротного моратория (2022). Банкротств, залогов, намерений кредиторов — нет.</li>
+      <li><b>Проверки — рутинные:</b> 48 записей за 2015–2023 (последняя в 2023). Инспектирующие органы типичны для крупного завода в ЗАТО с опасными производственными объектами: Гострудинспекция, пожарный надзор (СПФС №22), Ростехнадзор, Росприроднадзор, ФМБА, Минградостроительства. Критичных нарушений в выдаче не зафиксировано.</li>
+      <li><b>Исполнительные производства, банкротство — не выявлены.</b></li>
+    </ul>
+    <div class="callout good"><b>Юридический профиль — образцовый:</b> для компании такого масштаба почти полное отсутствие судов и «чистый» Федресурс с ежегодным аудитом — сильный сигнал дисциплины и прозрачности.</div>
+  </section>
+
+  <section id="s9">
+    <h2><span class="n">9</span> Сводные выводы</h2>
+    <p class="lead"><b>«Лером» — крепкая, прозрачная, но столкнувшаяся с циклическим ударом мебельная фабрика.</b> Реальное производство полного цикла (835 чел., &gt;160 тыс. м²), 28 лет истории, единственный владелец, образцовый юридический профиль и <b>очень мощный баланс</b> (капитал 3,48 млрд ₽, почти без долга).</p>
+    <p><b>Но 2025 год — тревожный разворот:</b> первый в истории убыток (−114 млн), падение выручки два года подряд и обвал валовой маржи втрое. Это не бумажная проблема тонкой подушки — подушка огромная, — а <b>исчерпание маржинального запаса на падающем рынке</b>. Отдельный сигнал: владелец заранее вывел ~1,35 млрд накопленной прибыли в холдинг (ООО «Лером»), а операционная фабрика осталась почти без кэша и с новыми кредитами.</p>
+    <h3>Точки внимания</h3>
+    <ul>
+      <li><b>Восстановление маржи в 2026</b> — ключевой вопрос выживания модели: если «ножницы» costs↑/спрос↓ сохранятся, убыток станет структурным.</li>
+      <li><b>Ликвидность:</b> деньги на счетах фабрики почти обнулились; оборотка держится на кредиторке и займах, проценты выросли ×10.</li>
+      <li><b>Слабый цифровой и розничный контур:</b> D2C/маркетплейсы отданы дилерам — фабрика теряет данные о клиенте и премию розницы; на уходящем в онлайн рынке это стратегический риск.</li>
+      <li><b>Репутация продукта</b> (эконом-ДСП, запах, сервис у дилеров) ограничивает переход в более маржинальный средний+ сегмент.</li>
+      <li><b>Концентрация:</b> всё завязано на одного собственника-директора (ключевой человек-риск).</li>
+    </ul>
+    <div class="callout"><b>Ограничения данных:</b> финпоказатели — из ОПУ, без НДС (цены/маркетплейсы — с НДС, поправка ~20%). Природа финвложений ООО «Лером» (950 млн) и размер дивидендов — реконструкция по динамике капитала, не прямая проводка [П]. Внутригрупповые обороты построчно не элиминированы (нет консолидированной отчётности); внешняя выручка группы ≈ выручка фабрики. Метрики маркетплейсов/hh.ru частично из сниппетов (антибот-защита площадок). Рейтинг работодателя-фабрики надёжно не установлен.</div>
+  </section>
+
+  <section id="author">
+    <h2><span class="n">★</span> Об авторе и услуги</h2>
+    <div class="author-grid">
+      <div class="author-photo"><img src="_author.jpg" alt="Александр Борисович Дублин — аналитик бизнеса, консультант, ментор"></div>
+      <div class="author-body">
+        <h3 style="margin-top:0">Александр Борисович Дублин</h3>
+        <p class="lead" style="margin-bottom:6px">Аналитик бизнеса, консультант, ментор. <b>Учу применять искусственный интеллект и помогаю внедрять его в бизнес.</b></p>
+        <p>Помогаю собственникам разобраться, что на самом деле происходит в бизнесе, и превратить хаос ежедневных решений в понятную систему цифр, процессов и действий. Последние 10 лет глубоко работаю с мебельным бизнесом, но подход шире отрасли: смотрю на бизнес как на систему.</p>
+        <div class="callout"><b>Это досье — живой пример того, что делает ИИ.</b> Сбор данных из десятка источников, построение юрструктуры, расчёты и вёрстка этой страницы сделаны с помощью ИИ за часы, а не недели. Тот же подход применим к анализу конкурентов, поставщиков, рынка и к вашей собственной отчётности.</div>
+      </div>
+    </div>
+    <div class="svc-cols">
+      <div class="svc-card ai">
+        <h4>🤖 Искусственный интеллект для бизнеса</h4>
+        <ul><li>Обучение собственников и команд работе с ИИ</li><li>Внедрение ИИ в процессы: аналитика, отчёты, CRM, контент</li><li>Автоматизация рутины и сбора данных</li><li>Аналитические досье «под ключ» — как это</li></ul>
+      </div>
+      <div class="svc-card">
+        <h4>📊 Анализ и управление бизнесом</h4>
+        <ul><li>Управленческий учёт и модель бизнеса</li><li>Бизнес-анализ и диагностика</li><li>Продажи и клиентский опыт</li><li>Менторинг собственника, подготовка управленческих решений</li></ul>
+      </div>
+    </div>
+    <h3>Связаться</h3>
+    <div class="contacts">
+      <a href="https://t.me/ab_dublin" target="_blank" rel="noopener">✈️ Telegram-канал @ab_dublin</a>
+      <a href="https://t.me/friday_meb" target="_blank" rel="noopener">📅 Пятничные посты @friday_meb</a>
+      <a href="https://t.me/AleksandrBorisovich73" target="_blank" rel="noopener">💬 Личный @AleksandrBorisovich73</a>
+      <a href="https://dzen.ru/dbs_dubas" target="_blank" rel="noopener">📝 Канал на Дзене</a>
+      <a href="https://wa.me/79217515928" target="_blank" rel="noopener">📱 +7 921 751-59-28 · WhatsApp</a>
+    </div>
+  </section>
+
+  </main>
+</div>
+<footer>
+  <div class="disc">
+    <p><b>Источники:</b> API Checko.ru (ЕГРЮЛ, ГИР БО, суды, проверки, Федресурс); lerom.ru; mberezka.ru; «Коммерсантъ»; отраслевые каталоги (testfirm, industrymebel); Otzovik; 2ГИС; hh.ru / агрегаторы вакансий (Rabota.ru, JobFilter); OZON / Wildberries.</p>
+    <p class="muted">Досье подготовлено 14.07.2026 на основе открытых источников, носит информационно-аналитический характер. Финпоказатели — без НДС. Метрики актуальны на дату сбора и могут меняться. Не является официальным заключением, инвестиционной или юридической рекомендацией.</p>
+  </div>
+</footer>
+<script>
+var toc=document.getElementById('toc'),btn=document.getElementById('menuBtn');
+btn.addEventListener('click',function(){toc.classList.toggle('collapsed');});
+document.querySelectorAll('nav.toc a').forEach(function(a){a.addEventListener('click',function(){if(window.innerWidth<=900)toc.classList.add('collapsed');});});
+var links=[].slice.call(document.querySelectorAll('nav.toc a'));
+var secs=links.map(function(l){return document.querySelector(l.getAttribute('href'));});
+function spy(){var y=window.scrollY+120,idx=0;for(var i=0;i<secs.length;i++){if(secs[i]&&secs[i].offsetTop<=y)idx=i;}links.forEach(function(l){l.classList.remove('active');});if(links[idx])links[idx].classList.add('active');}
+window.addEventListener('scroll',spy);window.addEventListener('load',spy);
+</script>
+</body>
+</html>
